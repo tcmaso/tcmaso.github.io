@@ -1,0 +1,14 @@
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_draggable
+
+https://stackoverflow.com/questions/23451267/how-to-make-drawing-draggable-on-canvas-in-html5
+
+http://api.jquery.com/append/
+
+https://stackoverflow.com/questions/34369053/how-to-drag-shapes-like-rect-circle-other-polygons-etc-around-the-canvas-using
+
+https://www.w3schools.com/jquery/jquery_dom_add.asp
+
+https://www.w3schools.com/tags/canvas_getimagedata.asp
+
+https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData
+https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData

@@ -1,0 +1,302 @@
+@font-face {
+	font-family: Montserrat-Light;
+	src: url(assets/Montserrat-Light.ttf)
+}
+
+
+
+
+html,
+body {
+	margin: 0px;
+	height: 100%;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	overflow-y: scroll;
+	width: 75px
+}
+
+
+#content {
+	grid-area: content;
+}
+
+.header {
+	grid-area: header;
+	font-family: Montserrat-Light;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.sideBarItem {
+	max-height: 75px;
+	max-width: 75px;
+	padding: 5px;
+}
+
+.sideBarItem img {
+	max-height: 50px;
+	max-Width: 50px;
+}
+
+
+/*Fade in button*/
+
+.secondaryTools {
+	padding: 12px;
+	grid-area: colourP;
+	display: flex;
+	flex-direction: grid;
+	flex-flow: wrap;
+	width: 400px;
+}
+
+.secondaryContainer * {
+	padding: 0;
+	margin: 0;
+	height: 70px;
+	width: 35px;
+	margin-right: 15px;
+}
+
+/*The colour,size,opacity container*/
+
+/*Stores the input and paragraph text for each*/
+
+.colourContainer * {
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
+	height: 70px;
+	width: 100px;
+	text-align: center;
+}
+
+.sizeContainer * {
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+}
+
+.opacityContainer * {
+	padding: 0;
+	margin: 0;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+}
+
+/*The input containers*/
+
+/*Font changed and sizes defined*/
+
+.colourContainer p,
+.sizeContainer p,
+.opacityContainer p {
+	line-height: 30px;
+	font-family: Montserrat-Light;
+}
+
+.inputContainer {
+	height: 70px;
+	width: 100px;
+}
+
+/*options box defined*/
+
+.options {
+	grid-area: options;
+	padding: 15px;
+}
+
+.colourSwatches {
+	box-sizing: border-box;
+	width: 40px;
+	height: 40px;
+	max-height: 40px;
+	max-width: 40px;
+	margin: 5px;
+}
+
+/*Main div*/
+
+.wrapper {
+	display: grid;
+	height: 100%;
+	grid-template-columns: 70px 350px minmax(500px, 1fr);
+	grid-template-rows: 35px minmax(500px, 1fr) 160px;
+	grid-template-areas: "header header header" "sidebar content content" "colourP colourP options";
+	background-color: #fff;
+	color: #444;
+}
+
+
+.box {
+	background-color: #777;
+	color: #fff;
+	font-size: 150%;
+}
+
+.header {
+	background-color: #999;
+}
+
+.theButtons {
+	line-height: 20px;
+	font-family: Montserrat-Light;
+}
+
+
+/*Shapes Icon*/
+
+#shapeContainer {}
+
+/*Shape item image container allows images to be alligned*/
+
+.shapeItems {
+	display: inline-block;
+	float: left;
+}
+
+/*Sets the image size to 50px*/
+
+.shapeItems img {
+	max-height: 50px;
+	max-width: 50px;
+	padding: 2px;
+
+}
+
+/*image Icon*/
+
+#imageContainer {
+	height: 65px;
+	margin-bottom: 0px;
+
+
+}
+
+/*Image item image container allows images to be alligned*/
+
+.imageItems {
+
+	display: inline-block;
+	float: left;
+}
+
+/*Sets the image size to 50px*/
+
+.imageItems img {
+	max-height: 50px;
+	max-width: 50px;
+	padding: 2px;
+
+}
+
+#imageContainer #SelectItem {
+	padding-right: 12px;
+}
+
+/*Used for size container for the width and height*/
+
+#imageContainer2 {
+	padding-top: 1px;
+}
+
+#imageContainer2 p {
+	padding: 0px;
+	padding-right: 15px;
+	margin: 0px;
+	float: left;
+
+}
+
+#imageContainer2 #imageWidth {
+	margin-right: 10px;
+	font-family: Montserrat-Light;
+}
+
+#imageContainer2 #imageHeight {
+	padding-top: 1px;
+	font-family: Montserrat-Light;
+}
+
+
+/*crop tool*/
+
+/*Crop item image container allows images to be alligned*/
+
+.cropItems {
+
+	display: inline-block;
+	float: left;
+}
+
+/*Sets the image size to 50px*/
+
+.cropItems img {
+	max-height: 50px;
+	max-width: 50px;
+	padding: 2px;
+
+}
+
+/*Main help box div*/
+
+#helpBox {
+	position: absolute;
+	z-index: 9;
+	background-color: #f1f1f1;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	max-width: 320px;
+	top: 100px;
+	left: 500px;
+}
+
+/*help box inside container, stores the text information*/
+
+#helpBox .helpInnerContainer {
+	width: 100%;
+	height: 55px;
+}
+
+/*help box paragraphs*/
+
+#helpBox p {
+	padding-left: 5px;
+}
+
+#helpBox .pToolName {
+	float: left;
+	padding-left: 5px;
+}
+
+#helpBox img {
+	width: 30px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+/*help box header*/
+
+#helpBoxHeader {
+	padding: 10px;
+	cursor: move;
+	z-index: 10;
+	background-color: #2196F3;
+	color: #fff;
+	width: 300px
+}
+
+#helpButton {
+	background-image: url(assets/questionMark.png);
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!-- Libraries -->
+
+
+	<!--	  DEFAULT LIBRARIES-->
+	<script src="lib/p5.min.js"></script>
+	<script src="lib/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+
+
+
+	<!--	  JQUERY USED FOR THE FADE IN/OUT BUTTON-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+	<!-- Main sketch file -->
+	<script src="sketch.js"></script>
+
+	<!-- Javascript files -->
+	<script src="toolbox.js"></script>
+	<script src="colourPalette.js"></script>
+	<script src="helperFunctions.js"></script>
+	<script src="freehandTool.js"></script>
+	<script src="lineToTool.js"></script>
+	<script src="mirrorDrawTool.js"></script>
+	<script src="sprayCanTool.js"></script>
+	<script src="helpSettings.js"></script>
+	<script src="eraserTool.js"></script>
+	<script src="shapeTool.js"></script>
+	<script src="toolSettings.js"></script>
+	<script src="imageTool.js"></script>
+	<script src="cropTool.js"></script>
+	<script src="textTool.js"></script>
+
+	<!--HTML FILE LOAD -->
+	<script language="javascript" type="text/javascript" src="addons/p5.dom.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<div class="wrapper" id="theWrapper">
+		<div class="box header">Drawing App
+			<!--CLEAR AND SAVE BUTTONS-->
+			<button class="theButtons" id="clearButton">Clear</button>
+			<button class="theButtons" id="saveImageButton">Save Image</button>
+		</div>
+		<div class="box sidebar"></div>
+
+
+		<div id="content"></div>
+
+
+
+		<div class="box secondaryTools">
+
+			<div class="secondaryContainer">
+				<!--Help button displays the help box-->
+				<button type="button" id="helpButton" />
+
+			</div>
+			<!--Colour pallette html with colour input-->
+			<div class="colourContainer">
+
+				<div class="inputContainer">
+
+					<input type="color" id="colInput" />
+
+				</div>
+
+				<p>Colour</p>
+			</div>
+			<!--Size html with range slider input box-->
+			<div class="sizeContainer">
+
+				<div class="inputContainer">
+
+					<input type="range" min="1" max="100" value="50" id="sizeInput" />
+
+				</div>
+
+				<p>Size</p>
+
+			</div>
+			<!--Opacity html with range slider input box-->
+			<div class="opacityContainer">
+
+				<div class="inputContainer">
+
+					<input type="range" min="0" max="1" value="0.5" step="0.01" id="opacityInput" />
+
+				</div>
+
+				<p>Opacity</p>
+
+			</div>
+
+
+		</div>
+		<!--The help box which contains useful information for the user-->
+		<div id="helpBox">
+			<div id="helpBoxHeader">Help</div>
+
+			<div class="helpInnerContainer">
+				<img src="assets/selectIcon.PNG">
+				<p class="pToolName">Select tool</p>
+
+			</div>
+			<div class="helpInnerContainer">
+				<img src="assets/dragIcon.png">
+				<p class="pToolName">Drag tool</p>
+
+			</div>
+			<p><b>Shape Tools</b></p>
+
+			<p>CONTROL KEY: symmetrical shape</p>
+			<p>DRAG TOOL AND UP ARROW: Increase the size of the shape</p>
+			<p>DRAG TOOL AND DOWN ARROW: Decrease the size of the shape</p>
+			<p style="color: red">Toggle this window by clicking the bottom left button (question marks) or drag this window around</p>
+		</div>
+
+
+		<!--The options box where secondary tools will be displayed-->
+		<div class="box options">
+
+		</div>
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* The navigation bar */
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(Fonts/TitilliumWeb/TitilliumWeb-Bold.ttf)
+}
+
+body {
+	margin: 0px;
+	overflow-x: hidden
+}
+
+header {
+	color: white;
+	background-image: url(thames.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	min-width: 900px
+}
+
+.container {
+	width: 750px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+header .container .headerMain  {
+	padding-top: 100px;
+	padding-bottom: 100%;
+}
+
+header .container .headerMain .headerText .index-Heading {
+	font-family: TitilliumWeb-Bold;
+	font-size: 90px;
+	margin-bottom: 10px;
+	display:none;
+}
+
+header .container .headerMain .headerText .index-Sub-Heading {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	margin-bottom: 10px;
+	display:none;
+}
+
+header .container .headerMain .social-icons {
+	display:none;
+}
+
+#wrapper{
+}
+

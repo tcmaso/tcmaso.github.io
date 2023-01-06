@@ -1,0 +1,149 @@
+/*FONTS*/
+@font-face {
+    font-family: Barlow-Black;
+    src: url(../fonts/Barlow/Barlow-Black.ttf)
+}
+
+@font-face {
+    font-family: Barlow-BlackItalic;
+    src: url(../fonts/Barlow/Barlow-BlackItalic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Bold;
+    src: url(../fonts/Barlow/Barlow-Black.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Bold;
+    src: url(../fonts/Barlow/Barlow-Bold.ttf)
+}
+
+@font-face {
+    font-family: Barlow-BoldItalic;
+    src: url(../fonts/Barlow/Barlow-BoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-ExtraBold;
+    src: url(../fonts/Barlow/Barlow-ExtraBold.ttf)
+}
+
+@font-face {
+    font-family: Barlow-ExtraBoldItalic;
+    src: url(../fonts/Barlow/Barlow-ExtraBoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-ExtraLight;
+    src: url(../fonts/Barlow/Barlow-ExtraLight.ttf)
+}
+
+@font-face {
+    font-family: Barlow-ExtraLight;
+    src: url(../fonts/Barlow/Barlow-ExtraLightItalic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Italic;
+    src: url(../fonts/Barlow/Barlow-Italic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Light;
+    src: url(../fonts/Barlow/Barlow-Light.ttf)
+}
+
+@font-face {
+    font-family: Barlow-LightItalic;
+    src: url(../fonts/Barlow/Barlow-LightItalic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Medium;
+    src: url(../fonts/Barlow/Barlow-Medium.ttf)
+}
+
+@font-face {
+    font-family: Barlow-MediumItalic;
+    src: url(../fonts/Barlow/Barlow-MediumItalic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Regular;
+    src: url(../fonts/Barlow/Barlow-Regular.ttf)
+}
+
+@font-face {
+    font-family: Barlow-SemiBold;
+    src: url(../fonts/Barlow/Barlow-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: Barlow-SemiBoldItalic;
+    src: url(../fonts/Barlow/Barlow-SemiBoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Thin;
+    src: url(../fonts/Barlow/Barlow-Thin.ttf)
+}
+
+@font-face {
+    font-family: Barlow-ThinItalic;
+    src: url(../fonts/Barlow/Barlow-ThinItalic.ttf)
+}
+
+
+
+
+.container-md.patternContainer {
+    margin-top:10px;
+	height: 80px;
+	 background: linear-gradient(90deg, #fff 0.25em, transparent 0), linear-gradient(90deg, #36599d 50%, transparent 0), linear-gradient(90deg, #643140 50%, #0a226a 0);
+	 background-size: 2.25em, 4.5em, 9em;
+}
+ 
+
+
+.container-md.nameContainer {
+    /*margin-top:10px;*/
+}
+
+#nameText {
+	font-family: Barlow-Medium;
+	font-size: 90px;
+	text-align:center;
+	line-height: 0.85em;
+	color: #0a226a
+}
+
+#infoText .col-md-3{
+	font-family: Barlow-Medium;
+	font-size: 20px;
+	text-align:center;
+	opacity: 0.8;
+}
+
+
+.navBar {
+	font-family: Barlow-Medium;
+	font-size: 20px;
+	text-align:center;
+	opacity: 0.8;
+	/*color:red;*/
+}
+
+
+#about #photo {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#about #cvDownload{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+
